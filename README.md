@@ -6,6 +6,9 @@ Provides guidelines to developers for testing their application.
 2. [API's](#apis)
 3. [Mobile](#mobile-applications-android--ios--react)
 
+
+Note: *All builds and their updates should be sent to qaonebyte@gmail.com with the subject “Project Name : iOS / Android / React : version”*
+
 # Web
 
 ## Form Validation
@@ -30,8 +33,8 @@ Provides guidelines to developers for testing their application.
 ## Consistent Design Practices
 
 - Designer should always provide a style guide and MUST use that style guide for all their screens
-- Developers should agree on style guide before starting on a project and if time permits, create an implementation of style guide as well (http://ec2-52-90-113-143.compute-1.amazonaws.com:8000/style-guide)
-- Implement a SCSS / LESS variable page and use those variables across CSS instead of hardcoding color, padding, radius, borders (https://bitbucket.org/onebytetech/servup-web/src/78365001c94cb3d9afaf0f1aaaffebe517af1804/client/modules/core/styles/variables.scss?at=master&fileviewer=file-view-default)
+- Developers should agree on style guide before starting on a project and if time permits, create an implementation of style guide as well [Example Style Guide](http://ec2-52-90-113-143.compute-1.amazonaws.com:8000/style-guide)
+- Implement a SCSS / LESS variable page and use those variables across CSS instead of hardcoding color, padding, radius, borders [Example Variable File](https://bitbucket.org/onebytetech/servup-web/src/78365001c94cb3d9afaf0f1aaaffebe517af1804/client/modules/core/styles/variables.scss?at=master&fileviewer=file-view-default)
 - Static (dummy) data must be taken out before the final build testing
 - Placeholder images for user (and other resources) should be used across the application in case no image is provided from backend (or while the image is loading)
 - Loaders should be used everywhere API response is required
@@ -82,7 +85,3 @@ Provides guidelines to developers for testing their application.
 - Avoid using application’s native font. Try using custom style-sheet on all platforms(Android/IOS/React). Coordinate with Design department
 
 ## Crash Analytics
-
-## Unique email
-
-- All builds and their updates should be sent to qaonebyte@gmail.com with the subject “Project Name : iOS / Android / React : version”
