@@ -1,6 +1,10 @@
 # Development Best Practices
 
-Provides guidelines to developers for testing their application
+Provides guidelines to developers for testing their application.
+
+1. [Web](#web)
+2. [API's](#apis)
+3. [Mobile](#mobile-applications-android--ios--react)
 
 # Web
 
