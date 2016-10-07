@@ -3,7 +3,7 @@
 Provides guidelines to developers for developing and testing applications. 
 
 1. [Web](#web)
-2. [API's](#apis)
+2. [Backend](#backend)
 3. [Mobile](#mobile-applications-android--ios--react)
 
 
@@ -48,7 +48,7 @@ Provides guidelines to developers for developing and testing applications.
 - Always use [lodash](https://lodash.com) to work with arrays
 - Always use (Moment](http://momentjs.com/) to work with dates
 - Whenever working with MySQL, always create migrations to setup schema instead of writing queries locally to setup schema
-- This yeoman generator sets up the application with all the above mentioned guidelines: https://www.npmjs.com/package/generator-maskers. Feel free to create a pull request to add stuff to it
+- This yeoman generator sets up the NodeJS application with all the above mentioned guidelines: https://www.npmjs.com/package/generator-maskers. Feel free to create a pull request to add stuff to it
 
 ## REST API's
 
