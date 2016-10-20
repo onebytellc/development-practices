@@ -11,6 +11,8 @@ Provides guidelines to developers for developing and testing applications.
 
 # Web
 
+Please follow code style guidelines from [here](https://github.com/airbnb/javascript)
+
 ## Format and Validations
 
 - Define validations for all form fields before starting the project and make sure you perform those validations on client-side unless otherwise specified
@@ -40,6 +42,8 @@ Provides guidelines to developers for developing and testing applications.
 - URL should always be lisp-case (or kebab-case)
 
 # Backend
+
+Please follow code style guidelines from [here](https://github.com/airbnb/javascript)
 
 ## Code Structure
 
